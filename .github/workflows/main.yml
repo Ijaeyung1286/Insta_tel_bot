@@ -2,7 +2,7 @@ name: Run Telegram Bot
 
 on:
   schedule:
-    - cron: "0 */4 * * * *"  # هر 15 دقیقه یک بار اجرا می‌شود
+    - cron: "0 */4 * * *"  # هر 15 دقیقه یک بار اجرا می‌شود
   push:
     branches:
       - main  # اجرا هنگام push به شاخه main
