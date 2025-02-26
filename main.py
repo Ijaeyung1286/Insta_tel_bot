@@ -22,7 +22,7 @@ from telegram.ext import (Application,
                           )
 
 TOKEN: Final = os.getenv("API_KEY")
-ADMIN_ID: Final = os.getenv("ADMIN")
+ADMIN_ID: Final = int(os.getenv("ADMIN"))
 BOT_USERNAME = "@INSTABOT_shop_bot"
 
 # instagram bots list
