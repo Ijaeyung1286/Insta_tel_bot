@@ -63,9 +63,9 @@ insta_bots = {
 
 DB_CONFIG = {
     "host": os.getenv("HOST"),
-    "user": os.getenv("HOST"),
+    "user": os.getenv("USER"),
     "password": os.getenv("PASS"),
-    "database": os.getenv("DATA_BASE")
+    "database": os.getenv("USER")
 }
 
 def connect_db():
