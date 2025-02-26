@@ -62,10 +62,10 @@ insta_bots = {
 # data base info
 
 DB_CONFIG = {
-    "host": "sql12.freesqldatabase.com",
-    "user": "sql12763922",
-    "password": "XDycZr9WkW",
-    "database": "sql12763922"
+    "host": os.getenv("HOST"),
+    "user": os.getenv("HOST"),
+    "password": os.getenv("PASS"),
+    "database": os.getenv("DATA_BASE")
 }
 
 def connect_db():
