@@ -21,7 +21,7 @@ from telegram.ext import (Application,
                           ContextTypes,
                           )
 
-TOKEN: Final = os.getenv("API_KEY")
+#TOKEN: Final = os.getenv("API_KEY")
 ADMIN_ID: Final = int(os.getenv("ADMIN"))
 BOT_USERNAME = "@INSTABOT_shop_bot"
 
